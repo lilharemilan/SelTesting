@@ -1,0 +1,13 @@
+
+<suite name="Suite"><!-->this is comment-->
+  <test thread-count="5" name="Test">
+    <classes>
+      <class name="testNGxmlStudy.MyClass">
+       <methods>
+       <exclude name="TC3"/>
+       <exclude name="TC5"/> 
+       </methods>>
+      </class>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->
